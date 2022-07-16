@@ -1,5 +1,9 @@
 import Sugestao from "./Sugestao";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbad1eb4d8c22e84ad231e38eb30c10b0f678a5d
 const name = "Nina William";
 const sugestaoData = [
     {
