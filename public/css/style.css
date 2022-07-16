@@ -349,6 +349,9 @@ main{
     .logo, .pesquisa, .icones{
         display: none;
     }
+    .container-publi-stories, .publicacao{
+        width: 100vw;
+    }
     .header-mobile{
         display: flex;
         align-items: center;
