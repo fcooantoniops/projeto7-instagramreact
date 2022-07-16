@@ -1,10 +1,10 @@
 import Sugestao from "./Sugestao";
 
-<<<<<<< HEAD
-=======
+const userProfile = { 
+    profileName: "Nina William",
+    nickName: "nina_william"
+}
 
->>>>>>> bbad1eb4d8c22e84ad231e38eb30c10b0f678a5d
-const name = "Nina William";
 const sugestaoData = [
     {
         urlImage: "https://picsum.photos/id/0/32",
@@ -35,8 +35,8 @@ export default function BarraLateral(){
                 <div className="usuario-adm">
                     <img src="https://picsum.photos/id/1027/56"  alt=""/>
                     <div className="texto-usuario-adm">
-                        <strong>{name}</strong>
-                        <span>{name.toLocaleLowerCase()}</span>
+                        <strong>{userProfile.profileName}</strong>
+                        <span>{userProfile.nickName}</span>
                     </div>
                 </div>
                 <div className="titulo">
