@@ -1,11 +1,19 @@
 import Header from './Header';
-import Main from './Main';
+import Stories from "./Stories";
+import Publicacoes from "./Publicacoes";
+import BarraLateral from './BarraLateral';
 
 export default function App(){
     return(
         <div>
             <Header />
-            <Main />
+            <main>
+                <div className="container-publi-stories">
+                    <Stories />
+                    <Publicacoes />
+                </div>
+                <BarraLateral />
+            </main>
         </div>
     );
 }

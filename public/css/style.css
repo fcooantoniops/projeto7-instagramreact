@@ -198,7 +198,7 @@ main{
 }
 
 .acoes ion-icon[name="heart"]{
-    color: red;
+    color: rgb(255, 0, 0);
 }
 
 .publicacao-salvar{
@@ -226,7 +226,7 @@ main{
     display: flex;
     flex-direction: column;
     margin: 34px 0 0 30px;
-    width: 40vw;
+    width: 32vw;
 }
 
 .container-lateral{

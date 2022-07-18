@@ -7,22 +7,22 @@ const userProfile = {
 
 const sugestaoData = [
     {
-        urlImage: "https://picsum.photos/id/0/32",
+        urlImage: "https://picsum.photos/id/22/32",
         name:"Eddy",
         id: 1
     },
     {
-        urlImage: "https://picsum.photos/id/1/32",
+        urlImage: "https://picsum.photos/id/399/32",
         name:"Alex",
         id: 2
     },
     {
-        urlImage: "https://picsum.photos/id/2/32",
-        name:"Nina",
+        urlImage: "https://picsum.photos/id/342/32",
+        name:"Lina",
         id: 3
     },
     {
-        urlImage: "https://picsum.photos/id/3/32",
+        urlImage: "https://picsum.photos/id/375/32",
         name:"Eric",
         id: 4
     },
