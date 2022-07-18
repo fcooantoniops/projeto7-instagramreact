@@ -68,7 +68,6 @@ main{
     align-items: center;
     justify-content: space-around;
     width: 140px;
-    cursor: pointer;
 }
 
 .icones ion-icon{

@@ -1,8 +1,10 @@
 import Sugestao from "./Sugestao";
+import Perfil from "./Perfil";
 
 const userProfile = { 
     profileName: "Nina William",
-    nickName: "nina_william"
+    nickName: "nina_william",
+    image: "https://picsum.photos/id/1027/56"
 }
 
 const sugestaoData = [
@@ -32,13 +34,9 @@ export default function BarraLateral(){
     return(
         <div className="barra-lateral">
             <div className="container-lateral">
-                <div className="usuario-adm">
-                    <img src="https://picsum.photos/id/1027/56"  alt=""/>
-                    <div className="texto-usuario-adm">
-                        <strong>{userProfile.profileName}</strong>
-                        <span>{userProfile.nickName}</span>
-                    </div>
-                </div>
+                
+                <Perfil image={userProfile.image} profileName={userProfile.profileName} nickName={userProfile.nickName}/>
+                
                 <div className="titulo">
                     Sugestões para você
                     <span>Ver tudo</span>
